@@ -10,9 +10,14 @@ body {
 	color: var(--fontColor);
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	margin: auto;
+	height: 50vw;
 }
 
 .textos {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	display: flex;
 	align-items: center;
 	justify-items: center;
@@ -33,12 +38,14 @@ body {
 	color: var(--fontColor);
 	text-shadow: 0.3vw 0.3vw var(--shadowColor);
 	padding: 1vw 1vw;
+	margin-bottom: 15vw;
 }
 
 .textos h3 {
 	margin: 0;
 	font-size: 5vw;
 	padding: 2vw 2vw;
+	margin-bottom: 15vw;
 }
 
 .textos p {
@@ -49,19 +56,11 @@ body {
 	padding: 3vw 3vw;
 }
 
-.fotos {
-	padding: 1em 1em;
-	height: 15vh;
-	display: flex;
-	align-items: center;
-	justify-items: center;
-	flex-direction: row;
-	background: var(--shadowColor);
-}
-
 .descarga {
-	position: sticky;
-	top: 0;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%, 0);
 
 	display: flex;
 	align-items: center;
@@ -82,8 +81,9 @@ body {
 a {
 	text-decoration: none;
 	color: var(--shadowColor);
-	font-size: 2.2vw;
-	padding: 0.75rem 3rem;
+	font-size: 4vw;
+	text-align: center;
+	padding: 3vw 2vw;
 	border-radius: 5px;
 	font-family: 'Arial', sans-serif;
 	background: var(--descargarColor);
@@ -95,10 +95,10 @@ a {
 
 h4 {
 	padding: 1rem 1rem;
-	font-size: 3vw;
+	font-size: 4vw;
+	font-weight: normal;
 	text-align: center;
 	margin: auto;
-	font-weight: normal;
 }
 
 .botones {
