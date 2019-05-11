@@ -82,13 +82,15 @@ body {
 a {
 	text-decoration: none;
 	color: var(--shadowColor);
-	font-size: 3vw;
-	padding: 0.75rem 3rem;
+	font-size: 2.5vw;
+	padding: 0.75rem 1rem;
 	border-radius: 5px;
 	font-family: 'Arial', sans-serif;
 	background: var(--descargarColor);
-	border: none;
-	outline: none;
+	width: 25vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	text-align: center;
 }
 
 h4 {
@@ -102,4 +104,5 @@ h4 {
 .botones {
 	display: flex;
 	flex-direction: row;
+	item-align: center;
 }
